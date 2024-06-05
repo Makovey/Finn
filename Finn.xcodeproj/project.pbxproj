@@ -8,10 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		5E29658A2C10ECDD00A2704B /* FinnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2965892C10ECDD00A2704B /* FinnApp.swift */; };
-		5E29658C2C10ECDD00A2704B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E29658B2C10ECDD00A2704B /* ContentView.swift */; };
 		5E29658E2C10ECDE00A2704B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E29658D2C10ECDE00A2704B /* Assets.xcassets */; };
 		5E2965912C10ECDE00A2704B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2965902C10ECDE00A2704B /* Preview Assets.xcassets */; };
 		5E29659B2C10ECDF00A2704B /* FinnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E29659A2C10ECDF00A2704B /* FinnTests.swift */; };
+		5E2965B52C10F05800A2704B /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2965B42C10F05800A2704B /* LaunchScreen.swift */; };
+		5E2965CA2C10F4B000A2704B /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E2965B82C10F4AF00A2704B /* Poppins-Light.ttf */; };
+		5E2965CC2C10F4B000A2704B /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E2965BA2C10F4AF00A2704B /* Poppins-Regular.ttf */; };
+		5E2965D22C10F4B000A2704B /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E2965C02C10F4B000A2704B /* Poppins-Thin.ttf */; };
+		5E2965D42C10F4B000A2704B /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E2965C22C10F4B000A2704B /* Poppins-SemiBold.ttf */; };
+		5E2965D72C10F4B000A2704B /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E2965C52C10F4B000A2704B /* Poppins-Medium.ttf */; };
+		5E2965DA2C10F4B000A2704B /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E2965C82C10F4B000A2704B /* Poppins-Bold.ttf */; };
+		5E2965DE2C10F71700A2704B /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2965DD2C10F71700A2704B /* Font+.swift */; };
+		5E2965E02C10FC9E00A2704B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2965DF2C10FC9E00A2704B /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,11 +35,20 @@
 /* Begin PBXFileReference section */
 		5E2965862C10ECDD00A2704B /* Finn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2965892C10ECDD00A2704B /* FinnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinnApp.swift; sourceTree = "<group>"; };
-		5E29658B2C10ECDD00A2704B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E29658D2C10ECDE00A2704B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E2965902C10ECDE00A2704B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E2965962C10ECDF00A2704B /* FinnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E29659A2C10ECDF00A2704B /* FinnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinnTests.swift; sourceTree = "<group>"; };
+		5E2965B42C10F05800A2704B /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LaunchScreen.swift; path = ../../../LaunchScreen.swift; sourceTree = "<group>"; };
+		5E2965B82C10F4AF00A2704B /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		5E2965BA2C10F4AF00A2704B /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		5E2965C02C10F4B000A2704B /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		5E2965C22C10F4B000A2704B /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		5E2965C52C10F4B000A2704B /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		5E2965C82C10F4B000A2704B /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		5E2965DC2C10F4EA00A2704B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5E2965DD2C10F71700A2704B /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
+		5E2965DF2C10FC9E00A2704B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +90,11 @@
 		5E2965882C10ECDD00A2704B /* Finn */ = {
 			isa = PBXGroup;
 			children = (
+				5E2965DC2C10F4EA00A2704B /* Info.plist */,
+				5E2965B62C10F3EA00A2704B /* Assets */,
+				5E2965B32C10EF5600A2704B /* LaunchScreens */,
 				5E2965892C10ECDD00A2704B /* FinnApp.swift */,
-				5E29658B2C10ECDD00A2704B /* ContentView.swift */,
-				5E29658D2C10ECDE00A2704B /* Assets.xcassets */,
-				5E29658F2C10ECDE00A2704B /* Preview Content */,
+				5E2965DF2C10FC9E00A2704B /* Launch Screen.storyboard */,
 			);
 			path = Finn;
 			sourceTree = "<group>";
@@ -95,6 +113,38 @@
 				5E29659A2C10ECDF00A2704B /* FinnTests.swift */,
 			);
 			path = FinnTests;
+			sourceTree = "<group>";
+		};
+		5E2965B32C10EF5600A2704B /* LaunchScreens */ = {
+			isa = PBXGroup;
+			children = (
+				5E2965B42C10F05800A2704B /* LaunchScreen.swift */,
+			);
+			path = LaunchScreens;
+			sourceTree = "<group>";
+		};
+		5E2965B62C10F3EA00A2704B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5E2965B72C10F4A400A2704B /* Fonts */,
+				5E29658F2C10ECDE00A2704B /* Preview Content */,
+				5E29658D2C10ECDE00A2704B /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5E2965B72C10F4A400A2704B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5E2965C82C10F4B000A2704B /* Poppins-Bold.ttf */,
+				5E2965B82C10F4AF00A2704B /* Poppins-Light.ttf */,
+				5E2965C52C10F4B000A2704B /* Poppins-Medium.ttf */,
+				5E2965BA2C10F4AF00A2704B /* Poppins-Regular.ttf */,
+				5E2965C22C10F4B000A2704B /* Poppins-SemiBold.ttf */,
+				5E2965C02C10F4B000A2704B /* Poppins-Thin.ttf */,
+				5E2965DD2C10F71700A2704B /* Font+.swift */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +229,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E2965912C10ECDE00A2704B /* Preview Assets.xcassets in Resources */,
+				5E2965DA2C10F4B000A2704B /* Poppins-Bold.ttf in Resources */,
+				5E2965D72C10F4B000A2704B /* Poppins-Medium.ttf in Resources */,
+				5E2965E02C10FC9E00A2704B /* Launch Screen.storyboard in Resources */,
+				5E2965D42C10F4B000A2704B /* Poppins-SemiBold.ttf in Resources */,
+				5E2965CA2C10F4B000A2704B /* Poppins-Light.ttf in Resources */,
 				5E29658E2C10ECDE00A2704B /* Assets.xcassets in Resources */,
+				5E2965D22C10F4B000A2704B /* Poppins-Thin.ttf in Resources */,
+				5E2965CC2C10F4B000A2704B /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E29658C2C10ECDD00A2704B /* ContentView.swift in Sources */,
+				5E2965DE2C10F71700A2704B /* Font+.swift in Sources */,
 				5E29658A2C10ECDD00A2704B /* FinnApp.swift in Sources */,
+				5E2965B52C10F05800A2704B /* LaunchScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,15 +403,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Finn/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Finn/Assets/Preview Content\"";
 				DEVELOPMENT_TEAM = X7JCT2793N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Finn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -377,15 +438,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Finn/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Finn/Assets/Preview Content\"";
 				DEVELOPMENT_TEAM = X7JCT2793N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Finn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
