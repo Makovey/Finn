@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5E2078522C15C5C000758F1E /* GhostButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2078512C15C5C000758F1E /* GhostButton.swift */; };
+		5E2078552C15C77800758F1E /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2078542C15C77800758F1E /* ContainerView.swift */; };
+		5E2078572C15FFEC00758F1E /* LaunchScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2078562C15FFEC00758F1E /* LaunchScreenRouter.swift */; };
+		5E20785D2C16198200758F1E /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E20785C2C16198200758F1E /* LoginScreen.swift */; };
 		5E29658A2C10ECDD00A2704B /* FinnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2965892C10ECDD00A2704B /* FinnApp.swift */; };
 		5E29658E2C10ECDE00A2704B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E29658D2C10ECDE00A2704B /* Assets.xcassets */; };
 		5E2965912C10ECDE00A2704B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2965902C10ECDE00A2704B /* Preview Assets.xcassets */; };
@@ -36,6 +39,9 @@
 
 /* Begin PBXFileReference section */
 		5E2078512C15C5C000758F1E /* GhostButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostButton.swift; sourceTree = "<group>"; };
+		5E2078542C15C77800758F1E /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		5E2078562C15FFEC00758F1E /* LaunchScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenRouter.swift; sourceTree = "<group>"; };
+		5E20785C2C16198200758F1E /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		5E2965862C10ECDD00A2704B /* Finn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2965892C10ECDD00A2704B /* FinnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinnApp.swift; sourceTree = "<group>"; };
 		5E29658D2C10ECDE00A2704B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +79,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E2078532C15C76B00758F1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E2078542C15C77800758F1E /* ContainerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E20785E2C161AB200758F1E /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5EF97E652C122FE00046D107 /* LaunchScreen.swift */,
+				5E2078562C15FFEC00758F1E /* LaunchScreenRouter.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		5E20785F2C161AEB00758F1E /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5E20785C2C16198200758F1E /* LoginScreen.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
 		5E29657D2C10ECDC00A2704B = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +127,7 @@
 			children = (
 				5E2965DC2C10F4EA00A2704B /* Info.plist */,
 				5E2965B62C10F3EA00A2704B /* Assets */,
+				5E2078532C15C76B00758F1E /* Views */,
 				5EF97E672C12301F0046D107 /* Styles */,
 				5E2965B32C10EF5600A2704B /* LaunchScreens */,
 				5E2965892C10ECDD00A2704B /* FinnApp.swift */,
@@ -123,7 +155,8 @@
 		5E2965B32C10EF5600A2704B /* LaunchScreens */ = {
 			isa = PBXGroup;
 			children = (
-				5EF97E652C122FE00046D107 /* LaunchScreen.swift */,
+				5E20785E2C161AB200758F1E /* LaunchScreen */,
+				5E20785F2C161AEB00758F1E /* LoginScreen */,
 			);
 			path = LaunchScreens;
 			sourceTree = "<group>";
@@ -269,8 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E2965DE2C10F71700A2704B /* Font+.swift in Sources */,
+				5E2078572C15FFEC00758F1E /* LaunchScreenRouter.swift in Sources */,
 				5E29658A2C10ECDD00A2704B /* FinnApp.swift in Sources */,
+				5E2078552C15C77800758F1E /* ContainerView.swift in Sources */,
 				5E2078522C15C5C000758F1E /* GhostButton.swift in Sources */,
+				5E20785D2C16198200758F1E /* LoginScreen.swift in Sources */,
 				5EF97E692C1230330046D107 /* PrimaryButton.swift in Sources */,
 				5EF97E662C122FE00046D107 /* LaunchScreen.swift in Sources */,
 			);
