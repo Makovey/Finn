@@ -18,8 +18,12 @@ enum FontSize: CGFloat {
     case veryBig = 52
     /// 22
     case title = 22
+    /// 18
+    case paragraph = 18
     /// 14
     case regular = 14
+    /// 9
+    case subtitle = 9
 }
 
 enum FontType: String {

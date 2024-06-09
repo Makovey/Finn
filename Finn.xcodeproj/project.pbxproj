@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E2078522C15C5C000758F1E /* GhostButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2078512C15C5C000758F1E /* GhostButton.swift */; };
 		5E29658A2C10ECDD00A2704B /* FinnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2965892C10ECDD00A2704B /* FinnApp.swift */; };
 		5E29658E2C10ECDE00A2704B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E29658D2C10ECDE00A2704B /* Assets.xcassets */; };
 		5E2965912C10ECDE00A2704B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2965902C10ECDE00A2704B /* Preview Assets.xcassets */; };
 		5E29659B2C10ECDF00A2704B /* FinnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E29659A2C10ECDF00A2704B /* FinnTests.swift */; };
-		5E2965B52C10F05800A2704B /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2965B42C10F05800A2704B /* LaunchScreen.swift */; };
 		5E2965CA2C10F4B000A2704B /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E2965B82C10F4AF00A2704B /* Poppins-Light.ttf */; };
 		5E2965CC2C10F4B000A2704B /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E2965BA2C10F4AF00A2704B /* Poppins-Regular.ttf */; };
 		5E2965D22C10F4B000A2704B /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E2965C02C10F4B000A2704B /* Poppins-Thin.ttf */; };
@@ -20,6 +20,8 @@
 		5E2965DA2C10F4B000A2704B /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E2965C82C10F4B000A2704B /* Poppins-Bold.ttf */; };
 		5E2965DE2C10F71700A2704B /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2965DD2C10F71700A2704B /* Font+.swift */; };
 		5E2965E02C10FC9E00A2704B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2965DF2C10FC9E00A2704B /* Launch Screen.storyboard */; };
+		5EF97E662C122FE00046D107 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97E652C122FE00046D107 /* LaunchScreen.swift */; };
+		5EF97E692C1230330046D107 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97E682C1230330046D107 /* PrimaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E2078512C15C5C000758F1E /* GhostButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostButton.swift; sourceTree = "<group>"; };
 		5E2965862C10ECDD00A2704B /* Finn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2965892C10ECDD00A2704B /* FinnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinnApp.swift; sourceTree = "<group>"; };
 		5E29658D2C10ECDE00A2704B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E2965902C10ECDE00A2704B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E2965962C10ECDF00A2704B /* FinnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E29659A2C10ECDF00A2704B /* FinnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinnTests.swift; sourceTree = "<group>"; };
-		5E2965B42C10F05800A2704B /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LaunchScreen.swift; path = ../../../LaunchScreen.swift; sourceTree = "<group>"; };
 		5E2965B82C10F4AF00A2704B /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
 		5E2965BA2C10F4AF00A2704B /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		5E2965C02C10F4B000A2704B /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		5E2965DC2C10F4EA00A2704B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5E2965DD2C10F71700A2704B /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
 		5E2965DF2C10FC9E00A2704B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		5EF97E652C122FE00046D107 /* LaunchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		5EF97E682C1230330046D107 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 			children = (
 				5E2965DC2C10F4EA00A2704B /* Info.plist */,
 				5E2965B62C10F3EA00A2704B /* Assets */,
+				5EF97E672C12301F0046D107 /* Styles */,
 				5E2965B32C10EF5600A2704B /* LaunchScreens */,
 				5E2965892C10ECDD00A2704B /* FinnApp.swift */,
 				5E2965DF2C10FC9E00A2704B /* Launch Screen.storyboard */,
@@ -118,7 +123,7 @@
 		5E2965B32C10EF5600A2704B /* LaunchScreens */ = {
 			isa = PBXGroup;
 			children = (
-				5E2965B42C10F05800A2704B /* LaunchScreen.swift */,
+				5EF97E652C122FE00046D107 /* LaunchScreen.swift */,
 			);
 			path = LaunchScreens;
 			sourceTree = "<group>";
@@ -145,6 +150,15 @@
 				5E2965DD2C10F71700A2704B /* Font+.swift */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5EF97E672C12301F0046D107 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				5EF97E682C1230330046D107 /* PrimaryButton.swift */,
+				5E2078512C15C5C000758F1E /* GhostButton.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +270,9 @@
 			files = (
 				5E2965DE2C10F71700A2704B /* Font+.swift in Sources */,
 				5E29658A2C10ECDD00A2704B /* FinnApp.swift in Sources */,
-				5E2965B52C10F05800A2704B /* LaunchScreen.swift in Sources */,
+				5E2078522C15C5C000758F1E /* GhostButton.swift in Sources */,
+				5EF97E692C1230330046D107 /* PrimaryButton.swift in Sources */,
+				5EF97E662C122FE00046D107 /* LaunchScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
