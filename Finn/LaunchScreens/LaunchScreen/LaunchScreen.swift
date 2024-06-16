@@ -23,45 +23,8 @@ struct LaunchScreen: View {
                 Color.greenSecondary.ignoresSafeArea()
 
                 VStack(spacing: .zero) {
-                    VStack(spacing: .zero) {
-                        Image(.mainLogo)
-                            .renderingMode(.template)
-                            .foregroundStyle(Color.greenPrimaryStatic)
-
-                        Text("Finn")
-                            .font(.system(type: .semiBold, size: .veryBig))
-                            .foregroundStyle(.greenPrimaryStatic)
-
-                        Text("""
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod.
-                        """)
-                            .font(.system(type: .bold, size: .subtitle))
-                            .foregroundStyle(Color.darkSecondary)
-                            .multilineTextAlignment(.center)
-                            .frame(width: Constant.descriptionWidth)
-                            .opacity(isShown ? 1 : .zero)
-                    }
-                    .offset(y: isShown ? -Constant.mainOffset : .zero)
-
-                    VStack(spacing: 12) {
-                        Button("Log in") {
-                            router.route(to: .login)
-                        }
-                        .buttonStyle(PrimaryButton(style: .dark))
-
-                        Button("Sign Up") {
-                            router.route(to: .signUp)
-                        }
-                        .buttonStyle(PrimaryButton(style: .light))
-
-                        Button("Forgot Password?") {
-                            router.route(to: .restorePassword)
-                        }
-                        .buttonStyle(GhostButton(size: .regular))
-                    }
-                    .offset(y: isShown ? Constant.mainOffset : .zero)
-                    .opacity(isShown ? 1 : .zero)
+                    logoDescriptionView
+                    buttonBlockView
                 }
                 .animation(.easeInOut(duration: Constant.animationDuration), value: isShown)
             }
@@ -74,6 +37,7 @@ struct LaunchScreen: View {
                 switch $0 {
                 case .login:
                     LoginScreen()
+                        .navigationBarBackButtonHidden()
                 case .signUp:
                     EmptyView()
                 case .restorePassword:
@@ -81,6 +45,50 @@ struct LaunchScreen: View {
                 }
             }
         }
+    }
+
+    private var logoDescriptionView: some View {
+        VStack(spacing: .zero) {
+            Image(.mainLogo)
+                .renderingMode(.template)
+                .foregroundStyle(Color.greenPrimaryStatic)
+
+            Text("Finn")
+                .font(.system(type: .semiBold, size: .veryBig))
+                .foregroundStyle(.greenPrimaryStatic)
+
+            Text("""
+                Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod.
+            """)
+                .font(.system(type: .bold, size: .subtitle))
+                .foregroundStyle(Color.darkSecondary)
+                .multilineTextAlignment(.center)
+                .frame(width: Constant.descriptionWidth)
+                .opacity(isShown ? 1 : .zero)
+        }
+        .offset(y: isShown ? -Constant.mainOffset : .zero)
+    }
+
+    private var buttonBlockView: some View {
+        VStack(spacing: 12) {
+            Button("Log in") {
+                router.route(to: .login)
+            }
+            .buttonStyle(PrimaryButton(style: .dark))
+
+            Button("Sign Up") {
+                router.route(to: .signUp)
+            }
+            .buttonStyle(PrimaryButton(style: .light))
+
+            Button("Forgot Password?") {
+                router.route(to: .restorePassword)
+            }
+            .buttonStyle(GhostButton(size: .regular))
+        }
+        .offset(y: isShown ? Constant.mainOffset : .zero)
+        .opacity(isShown ? 1 : .zero)
     }
 }
 

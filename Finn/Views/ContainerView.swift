@@ -16,7 +16,7 @@ struct ContainerView<Content: View>: View {
 
     var body: some View {
         ZStack {
-            RoundedRectangle(cornerRadius: 25.0)
+            RoundedRectangle(cornerRadius: 35.0)
                 .foregroundColor(Color.greenSecondary)
                 .ignoresSafeArea(edges: .bottom)
             content
