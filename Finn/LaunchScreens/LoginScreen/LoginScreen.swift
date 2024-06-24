@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct LoginScreen: View {
-    @State private var text: String = ""
+    enum Constant {
+        static let standardPadding: CGFloat = 25
+    }
+    @State private var username: String = ""
+    @State private var password: String = ""
 
     var body: some View {
         ZStack {
@@ -19,34 +23,19 @@ struct LoginScreen: View {
                     .textTitleStyle()
 
                 ContainerView {
-                    VStack(spacing: 25) {
-                        VStack(spacing: 10) {
-                            Text("Username or email")
-                                .font(.system(type: .medium, size: .regular))
-                                .foregroundStyle(Color.greenSecondaryReverse)
+                    VStack(spacing: Constant.standardPadding) {
+                        LabeledTextField(
+                            text: $username,
+                            label: "Username or email",
+                            placeholder: "example@example.com"
+                        )
 
-                            TextField("example@example.com", text: $text)
-                                .frame(width: 290, height: 40)
-                                .padding(.horizontal, 30)
-                                .background(Color.lightGreenStatic)
-                                .foregroundStyle(Color.secondaryDarkGreenStatic)
-                                .font(.system(size: .regular))
-                                .clipShape(.capsule)
-                        }
-
-                        VStack {
-                            Text("Password")
-                                .font(.system(type: .medium, size: .regular))
-                                .foregroundStyle(Color.greenSecondaryReverse)
-
-                            TextField("123456", text: $text)
-                                .frame(width: 290, height: 40)
-                                .padding(.horizontal, 30)
-                                .background(Color.lightGreenStatic)
-                                .foregroundStyle(Color.secondaryDarkGreenStatic)
-                                .font(.system(size: .regular))
-                                .clipShape(.capsule)
-                        }
+                        LabeledTextField(
+                            text: $password,
+                            label: "Password",
+                            placeholder: "●●●●●●●●",
+                            isSecured: true
+                        )
                     }
                 }
             }

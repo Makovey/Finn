@@ -24,6 +24,7 @@
 		5E2965DE2C10F71700A2704B /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2965DD2C10F71700A2704B /* Font+.swift */; };
 		5E2965E02C10FC9E00A2704B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2965DF2C10FC9E00A2704B /* Launch Screen.storyboard */; };
 		5E300D192C1F6EAF00E46895 /* TextTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E300D182C1F6EAF00E46895 /* TextTitle.swift */; };
+		5E44F58C2C29E6E5009AEA10 /* LabeledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E44F58B2C29E6E5009AEA10 /* LabeledTextField.swift */; };
 		5EF97E662C122FE00046D107 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97E652C122FE00046D107 /* LaunchScreen.swift */; };
 		5EF97E692C1230330046D107 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97E682C1230330046D107 /* PrimaryButton.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		5E2965DD2C10F71700A2704B /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
 		5E2965DF2C10FC9E00A2704B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		5E300D182C1F6EAF00E46895 /* TextTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTitle.swift; sourceTree = "<group>"; };
+		5E44F58B2C29E6E5009AEA10 /* LabeledTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledTextField.swift; sourceTree = "<group>"; };
 		5EF97E652C122FE00046D107 /* LaunchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 		5EF97E682C1230330046D107 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -204,11 +206,20 @@
 			path = Modifiers;
 			sourceTree = "<group>";
 		};
+		5E44F58D2C29E6EB009AEA10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E44F58B2C29E6E5009AEA10 /* LabeledTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		5EF97E672C12301F0046D107 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
 				5E300D172C1F6E9700E46895 /* Modifiers */,
 				5E300D162C1F6E8B00E46895 /* Components */,
+				5E44F58D2C29E6EB009AEA10 /* Views */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -329,6 +340,7 @@
 				5EF97E692C1230330046D107 /* PrimaryButton.swift in Sources */,
 				5EF97E662C122FE00046D107 /* LaunchScreen.swift in Sources */,
 				5E300D192C1F6EAF00E46895 /* TextTitle.swift in Sources */,
+				5E44F58C2C29E6E5009AEA10 /* LabeledTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

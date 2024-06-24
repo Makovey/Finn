@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TextTitle: ViewModifier {
-    private enum Constants {
+    private enum Constant {
         static let titlePadding: CGFloat = 65
     }
 
@@ -17,7 +17,7 @@ struct TextTitle: ViewModifier {
             .font(.system(type: .semiBold, size: .big))
             .multilineTextAlignment(.center)
             .foregroundStyle(Color.greenSecondaryReverse)
-            .padding(.vertical, Constants.titlePadding)
+            .padding(.vertical, Constant.titlePadding)
     }
 }
 
