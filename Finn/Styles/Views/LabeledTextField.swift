@@ -11,6 +11,7 @@ struct LabeledTextField: View {
     private enum Constant {
         static let paddingBetween: CGFloat = 10
         static let labelPadding: CGFloat = 35
+        static let eyePadding: CGFloat = 15
     }
     
     @Binding var text: String
@@ -60,7 +61,7 @@ struct LabeledTextField: View {
                         Image(systemName: isSecuredState ? "eye.slash.circle.fill" : "eye.circle.fill")
                             .tint(Color.darkGreenStatic)
                     }
-                    .padding(.horizontal, 15)
+                    .padding(.horizontal, Constant.eyePadding)
                 }
             } else {
                 TextField(

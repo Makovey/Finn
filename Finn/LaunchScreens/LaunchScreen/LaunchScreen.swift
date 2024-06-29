@@ -85,7 +85,7 @@ struct LaunchScreen: View {
             Button("Forgot Password?") {
                 router.route(to: .restorePassword)
             }
-            .buttonStyle(GhostButton(size: .regular))
+            .buttonStyle(GhostButton(size: .regular, type: .semiBold))
         }
         .offset(y: isShown ? Constant.mainOffset : .zero)
         .opacity(isShown ? 1 : .zero)

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TextTitle: ViewModifier {
     private enum Constant {
-        static let titlePadding: CGFloat = 65
+        static let titlePadding: CGFloat = 45
     }
 
     func body(content: Content) -> some View {
